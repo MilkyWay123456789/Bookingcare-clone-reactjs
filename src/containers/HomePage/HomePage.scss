@@ -1,0 +1,135 @@
+//reset slick sliderr css
+
+.slick-prev{
+    left: -10px !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover{
+        background: #eceaea !important;
+    }
+}
+
+.slick-prev:before,.slick-next:before{
+    font-family: fontAwesome !important;
+    color: red !important;
+    //content: "\e257" !important;
+}
+
+.slick-next{
+    right: 30px !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover{
+        background: #eceaea !important;
+    }
+}
+
+.section-share{
+    &.section-specialty{
+        background: #f5f5f5;
+    }
+
+    &.section-outstanding-doctor{
+        background: #f5f5f5;
+    }
+
+    .section-body{
+        .section-customize{
+            .bg-image{
+                height: 150px;
+                width: 278px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #ccc;
+
+                &.section-specialty{
+                    background-image: url('../../assets/Specialty/co-xuong-khop.jpg');
+                }
+
+                &.section-medical-facility{
+                    background-image: url('../../assets/Medical-facility/benh-vien-cho-ray.jpg');
+                }
+
+                &.section-outstanding-doctor{
+                    background-image: url('../../assets/Outstanding-doctor/anh-dai-dien-bs.jpg');
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+
+                &.section-handbook{
+                    background-image: url('../../assets/HandBook/kham-tong-quat-benh-vien-bao-son.png');
+                }
+            }
+        }
+
+    }
+
+}
+
+.section-share{
+    height: 330px;
+
+    .section-container{
+        margin: 0 170px;
+        display: flex;
+        flex-direction: column;
+
+        .section-header{
+            height:60px;
+            margin-bottom: 20px;
+            padding-top: 20px;
+
+            .title-section{
+                font-size: 22px;
+                font-weight: 600;
+            }
+
+            .btn-section{
+                float: right;
+                padding: 10px 15px;
+                margin-right: 20px;
+                border: none;
+                outline: none;
+                display: block;
+                background: #ebebeb;
+                color:black;
+                cursor: pointer;
+                text-transform: uppercase;
+
+                &:hover{
+                    color:#fff;
+                    background: #f7d800;
+                }
+            }
+        }
+    }
+}
+
+.section-outstanding-doctor{
+    .outer-bg{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .section-customize{
+        padding: 5px;
+
+        .customize-border{
+            border: 1px solid orange;
+            padding: 20px;
+        }
+    }
+}
+
+
