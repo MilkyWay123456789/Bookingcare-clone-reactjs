@@ -6,6 +6,7 @@ import {LANGUAGES} from '../../../utils';
 import * as actions from '../../../store/actions';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
+import TableManageUser from './TableManageUser';
 
 class UserRedux extends Component {
 
@@ -45,6 +46,7 @@ class UserRedux extends Component {
                 gender: arrGenders && arrGenders.length>0?arrGenders[0].key:''
             })
         }
+
         if(prevProps.positionRedux!==this.props.positionRedux){
             let arrPosition=this.props.positionRedux
             this.setState({
@@ -52,11 +54,27 @@ class UserRedux extends Component {
                 position: arrPosition && arrPosition.length>0?arrPosition[0].key:''
             })
         }
+
         if(prevProps.roleRedux!==this.props.roleRedux){
             let arrRole=this.props.roleRedux
             this.setState({
                 roleArr:arrRole,
                 role: arrRole && arrRole.length>0?arrRole[0].key:''
+            })
+        }
+
+        if(prevProps.listUsers!==this.props.listUsers){
+            this.setState({
+                email:'',
+                password: '',
+                firstName: '',
+                lastName:'',
+                phoneNumber:'',
+                address:'',
+                gender:'',
+                position:'',
+                role:'',
+                avatar:'',
             })
         }
     }
@@ -97,8 +115,6 @@ class UserRedux extends Component {
             rodeId: this.state.role,
             positionId: this.state.position
         })
-
-        console.log('check data before save',this.state)
     }
 
     onChangeInput=(event,id)=>{
@@ -236,10 +252,13 @@ class UserRedux extends Component {
                                     ></div>
                                 </div>
                             </div>
-                            <div className='col-12 mt-3'>
+                            <div className='col-12 my-3'>
                                 <button className='btn btn-primary'
                                     onClick={()=>this.hnadleSaveUser()}
                                 ><FormattedMessage id="manage-user.save"/></button>
+                            </div>
+                            <div className='col-12 mb-5'>
+                                <TableManageUser/>
                             </div>
                         </div>
                     </div>
@@ -264,6 +283,7 @@ const mapStateToProps = state => {
         positionRedux: state.admin.positions,
         roleRedux: state.admin.roles,
         isLoadingGender: state.admin.isLoadingGender,
+        listUsers: state.admin.users,
     };
 };
 
@@ -273,6 +293,7 @@ const mapDispatchToProps = dispatch => {
         getPositionStart: ()=>dispatch(actions.fetchPositionStart()),
         getRoleStart: ()=>dispatch(actions.fetchRoleStart()),
         createNewUser: (data)=>dispatch(actions.createrNewUser(data)),
+        fetchUsersRedux: ()=>dispatch(actions.fetchAllUsersStart()),
     };
 };
 
