@@ -13,6 +13,10 @@
     }
 }
 
+.slick-disabled{
+    display: none !important;
+}
+
 .slick-prev:before,.slick-next:before{
     font-family: fontAwesome !important;
     color: red !important;
@@ -20,7 +24,7 @@
 }
 
 .slick-next{
-    right: 30px !important;
+    //right: 30px !important;
     z-index: 1000 !important;
     height: 48px !important;
     width: 44px !important;
