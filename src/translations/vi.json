@@ -1,58 +1,61 @@
 {
-    "home-header":{
-        "speciality":"Chuyên khoa",
-        "search-doctor":"Tìm bác sĩ theo chuyên khoa",
-        "health-facility":"Cơ sở y tế",
-        "select-room":"Chọn bệnh viện phòng khám",
-        "doctor":"Bác sĩ",
-        "select-doctor":"Chọn bác sĩ giỏi",
-        "fee":"Gói khám",
-        "check-health":"Khám sức khoẻ tổng quát",
-        "support":"Hỗ trợ",
-        "welcome":"Xin chào"
+    "home-header": {
+        "speciality": "Chuyên khoa",
+        "search-doctor": "Tìm bác sĩ theo chuyên khoa",
+        "health-facility": "Cơ sở y tế",
+        "select-room": "Chọn bệnh viện phòng khám",
+        "doctor": "Bác sĩ",
+        "select-doctor": "Chọn bác sĩ giỏi",
+        "fee": "Gói khám",
+        "check-health": "Khám sức khoẻ tổng quát",
+        "support": "Hỗ trợ",
+        "welcome": "Xin chào"
     },
-    "banner":{
-        "title1":"NỀN TẢNG Y TẾ",
-        "title2":"CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
-        "child1":"Khám chuyên khoa",
-        "child2":"Khám từ xa",
-        "child3":"Khám tổng quát",
-        "child4":"Xét nghiệm y học",
-        "child5":"Sức khoẻ tinh thần",
-        "child6":"Khám nha khoa"
+    "banner": {
+        "title1": "NỀN TẢNG Y TẾ",
+        "title2": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "child1": "Khám chuyên khoa",
+        "child2": "Khám từ xa",
+        "child3": "Khám tổng quát",
+        "child4": "Xét nghiệm y học",
+        "child5": "Sức khoẻ tinh thần",
+        "child6": "Khám nha khoa"
     },
     "menu": {
-        "admin":{
-            "manage-user":"Người dùng",
-            "manage-doctor":"Quản lí bác sĩ",
-            "manage-admin":"Quản lí admin",
-            "crud":"CRUD user",
-            "crud-redux":"CRUD Redux",
-            "clinic":"Phòng khám",
-            "manage-clinic":"Quản lí phòng khám",
-            "specialty":"Chuyên khoa",
-            "manage-specialty":"Quản lí chuyên khoa",
-            "handbook":"Cẩm nang",
-            "manage-handbook":"Quản lí cẩm nang"
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lí bác sĩ",
+            "manage-admin": "Quản lí admin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD Redux",
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lí phòng khám",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lí chuyên khoa",
+            "handbook": "Cẩm nang",
+            "manage-handbook": "Quản lí cẩm nang"
+        },
+        "doctor": {
+            "manage-schedule": "Quản lí kế hoạch khám bệnh"
         }
     },
-    "manage-user":{
-        "add":"Thêm mới người dùng",
-        "email":"Email",
-        "password":"Mật khẩu",
-        "first-name":"Tên",
-        "last-name":"Họ",
-        "phone-number":"Số điện thoại",
-        "address":"Địa chỉ",
-        "gender":"Giới tính",
-        "position":"Chức danh",
-        "role":"Vai trò",
-        "image":"Ảnh đại diện",
-        "save":"Lưu user",
+    "manage-user": {
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "first-name": "Tên",
+        "last-name": "Họ",
+        "phone-number": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "position": "Chức danh",
+        "role": "Vai trò",
+        "image": "Ảnh đại diện",
+        "save": "Lưu user",
         "edit": "Lưu thay đổi"
     },
-    "homepage":{
-        "out-standing-doctor":"Bác sĩ nổi bật tuần qua",
-        "more-infor":"xem thêm"
+    "homepage": {
+        "out-standing-doctor": "Bác sĩ nổi bật tuần qua",
+        "more-infor": "xem thêm"
     }
 }
