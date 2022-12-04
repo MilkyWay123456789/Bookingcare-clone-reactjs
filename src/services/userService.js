@@ -45,7 +45,7 @@ const saveBulkScheduleDoctor = (data) => {
 }
 
 const getScheduleDoctorByDate = (doctorId, date) => {
-    return axios.get(`/api/get-schedule-doctors-by-id?doctoId=${doctorId}&date=${date}`);
+    return axios.get(`/api/get-schedule-doctors-by-id?doctorId=${doctorId}&date=${date}`);
 }
 
 export {
