@@ -88,7 +88,9 @@
             "birthday": "Birthday",
             "gender": "Gender",
             "submit": "Submit",
-            "cancel": "Cancel"
+            "cancel": "Cancel",
+            "price-booking": "Free Booking",
+            "price": "Price"
         }
     },
     "admin": {

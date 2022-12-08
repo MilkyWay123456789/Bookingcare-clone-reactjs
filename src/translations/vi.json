@@ -88,7 +88,9 @@
             "birthday": "Ngày sinh",
             "gender": "Giới tính",
             "submit": "Xác nhận",
-            "cancel": "Huỷ"
+            "cancel": "Huỷ",
+            "price-booking": "Miễn phí đặt lịch",
+            "price": "Giá khám"
         }
     },
     "admin": {
