@@ -32,7 +32,7 @@ export const adminMenu = [
     { //Quản lí chuyên khoa
         name: 'menu.admin.specialty', menus: [
             {
-                name: 'menu.admin.manage-specialty', link: '/system/mamage-specialty',
+                name: 'menu.admin.manage-specialty', link: '/system/manage-specialty',
             },
         ]
     },
