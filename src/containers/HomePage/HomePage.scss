@@ -1,6 +1,6 @@
 //reset slick sliderr css
 
-.slick-prev{
+.slick-prev {
     left: -10px !important;
     z-index: 1000 !important;
     height: 48px !important;
@@ -8,54 +8,55 @@
     background: #fff !important;
     border: 2px solid #d7d7d7 !important;
 
-    &:hover{
+    &:hover {
         background: #eceaea !important;
     }
 }
 
-.slick-disabled{
+.slick-disabled {
     display: none !important;
 }
 
-.slick-prev:before,.slick-next:before{
+.slick-prev:before,
+.slick-next:before {
     font-family: fontAwesome !important;
     color: red !important;
     //content: "\e257" !important;
 }
 
-.slick-next{
-    //right: 30px !important;
+.slick-next {
+    right: 1px !important;
     z-index: 1000 !important;
     height: 48px !important;
     width: 44px !important;
     background: #fff !important;
     border: 2px solid #d7d7d7 !important;
 
-    &:hover{
+    &:hover {
         background: #eceaea !important;
     }
 }
 
-.section-share{
-    &.section-specialty{
+.section-share {
+    &.section-specialty {
         background: #f5f5f5;
     }
 
-    &.section-outstanding-doctor{
+    &.section-outstanding-doctor {
         background: #f5f5f5;
     }
 
-    &.section-about{
+    &.section-about {
         height: 500px !important;
         border-top: 1px solid #f5f5f5;
         border-bottom: 1px solid #f5f5f5;
     }
 
-    .section-body{
-        .section-customize{
+    .section-body {
+        .section-customize {
             cursor: pointer;
 
-            .bg-image{
+            .bg-image {
                 height: 150px;
                 width: 278px;
                 background-position: center center;
@@ -63,22 +64,23 @@
                 background-size: cover;
                 background-color: #ccc;
 
-                &.section-specialty{
-                    background-image: url('../../assets/Specialty/co-xuong-khop.jpg');
+                &.section-specialty {
+
+                    //background-image: url('../../assets/Specialty/co-xuong-khop.jpg');
                 }
 
-                &.section-medical-facility{
+                &.section-medical-facility {
                     background-image: url('../../assets/Medical-facility/benh-vien-cho-ray.jpg');
                 }
 
-                &.section-outstanding-doctor{
+                &.section-outstanding-doctor {
                     //background-image: url('../../assets/Outstanding-doctor/anh-dai-dien-bs.jpg');
                     width: 120px;
                     height: 120px;
                     border-radius: 50%;
                 }
 
-                &.section-handbook{
+                &.section-handbook {
                     background-image: url('../../assets/HandBook/kham-tong-quat-benh-vien-bao-son.png');
                 }
             }
@@ -88,25 +90,25 @@
 
 }
 
-.section-share{
+.section-share {
     height: 330px;
 
-    .section-container{
+    .section-container {
         margin: 0 170px;
         display: flex;
         flex-direction: column;
 
-        .section-header{
-            height:60px;
+        .section-header {
+            height: 60px;
             margin-bottom: 20px;
             padding-top: 20px;
 
-            .title-section{
+            .title-section {
                 font-size: 22px;
                 font-weight: 600;
             }
 
-            .btn-section{
+            .btn-section {
                 float: right;
                 padding: 10px 15px;
                 margin-right: 20px;
@@ -114,12 +116,12 @@
                 outline: none;
                 display: block;
                 background: #ebebeb;
-                color:black;
+                color: black;
                 cursor: pointer;
                 text-transform: uppercase;
 
-                &:hover{
-                    color:#fff;
+                &:hover {
+                    color: #fff;
                     background: #f7d800;
                 }
             }
@@ -127,50 +129,50 @@
     }
 }
 
-.section-outstanding-doctor{
-    .outer-bg{
+.section-outstanding-doctor {
+    .outer-bg {
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
     }
 
-    .section-customize{
+    .section-customize {
         padding: 5px;
 
-        .customize-border{
+        .customize-border {
             border: 1px solid orange;
             padding: 20px;
         }
     }
 }
 
-.home-footer{
+.home-footer {
     text-align: center;
     padding-top: 8px;
 }
 
-.section-about{
+.section-about {
     padding: 0 100px;
 
-    .section-about-header{
+    .section-about-header {
         padding: 20px 10px;
         font-size: 22px;
         font-weight: 600;
     }
 
-    .section-about-content{
+    .section-about-content {
         display: flex;
-        gap:15px;
+        gap: 15px;
         width: 100%;
 
-        .content-left{
+        .content-left {
             width: 60%;
         }
 
-        .content-right{
+        .content-right {
             width: 40%;
 
-            p{
+            p {
                 text-align: justify;
                 font-style: italic;
                 padding: 15px;
@@ -178,5 +180,3 @@
         }
     }
 }
-
-
