@@ -52,6 +52,9 @@ export const doctorMenu = [
             { //Quản lí doctor
                 name: 'menu.doctor.manage-schedule', link: '/doctor/manage-schedule',
             },
+            { //Quản lí patient
+                name: 'menu.doctor.manage-patient', link: '/doctor/manage-patient',
+            },
         ]
 
     }
