@@ -64,9 +64,9 @@ class RemedyModal extends Component {
                 size="lg"
                 centered
             >
-                <div class="modal-header">
-                    <h5 class="modal-title">Gửi hoá đơn khám bệnh thành công</h5>
-                    <button type="button" class="close" aria-label="Close" onClick={closeRemedyModal}>
+                <div className="modal-header">
+                    <h5 className="modal-title">Gửi hoá đơn khám bệnh thành công</h5>
+                    <button type="button" className="close" aria-label="Close" onClick={closeRemedyModal}>
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
