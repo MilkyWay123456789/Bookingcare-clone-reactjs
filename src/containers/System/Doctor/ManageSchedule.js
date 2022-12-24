@@ -124,7 +124,7 @@ class ManageSchedule extends Component {
         let res = await saveBulkScheduleDoctor({
             arrSchedule: result,
             doctorId: selectedDoctor.value,
-            date: formatedDate,
+            date: ''+formatedDate,
         })
         if (res && res.errCode === 0) {
             toast.success("saveBulkScheduleDoctor succeed!");
