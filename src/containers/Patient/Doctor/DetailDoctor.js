@@ -48,7 +48,7 @@ class DetailDoctor extends Component {
         }
 
         let currentURL = +process.env.REACT_APP_IS_LOCALHOST === 1 ?
-            `https://bookingcare-fe-reactjs.vercel.app/detail-doctor/${this.props.match.params.id}` : window.location.href
+            `https://bookingcare-fe-reactjs.vercel.app/detail-doctor?doctorId=${this.props.match.params.id}` : window.location.href
         return (
             <>
                 <HomeHeader isShowBanner={false} />
